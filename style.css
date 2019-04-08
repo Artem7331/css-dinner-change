@@ -1,0 +1,115 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Trebuchet MS', Trebuchet, Arial, sans-serif;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #4a4f56;
+	height: 115px;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.head {
+	padding:28px;
+	text-align: center;
+	color:#eb7e7f;
+}
+
+main {
+	background-color: #3b3f45;
+	padding: 46px;
+}
+
+.wrapper{
+  background-color: #88839e;
+  margin: 0 auto;
+  width: 800px;
+}
+
+.content {
+	display: flex;
+	align-items: center;
+	height: 70px;
+	width: 100%;
+  	position: relative;
+}
+
+.content:hover {
+	background-color: #625e77;
+	border-top: 2px solid #ffffff;
+	border-bottom: 2px solid #ffffff;
+}
+
+.content:nth-child(2n+2) {
+	background-color: #9891ba;
+}
+
+.content:active{
+	text-decoration: line-through;
+	transition: all 1s ease;
+	background-color: #7a7593;
+	color: #ffffff;
+}
+
+.box {
+	padding-left:20px;
+	transform:scale(1.7);
+	position: absolute;
+  	left: 13px; 
+  	bottom: 27px;
+}
+
+span.subject {
+	padding-left: 25px;
+  	font-size: 20px;
+	font-weight: 300;
+}
+
+span.message {
+	padding-left: 10px;
+}
+
+label {
+  	width: 100%;
+  	height: 100%;
+  	padding-left: 25px;
+  	display:flex;
+  	align-items:center;
+  	color: #ffffff;
+}
+
+input[type=checkbox]:checked + label {
+  	background-color: #7a7593;
+  	color: #a3a0b5;
+	text-decoration: line-through;	
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #3b3f45;
+}
+
+.button a {
+	background: #4a4f56;
+  	width: 800px;
+  	text-align:center;
+  	color:#eb7e7f;
+	font-weight: 300;
+	font-size:25px;
+	text-decoration:none;
+	padding: 18px 0;
+}
+
+.button a:hover {
+	background-color:#41464f;
+	transition: all .1s ease-in;
+}
+
